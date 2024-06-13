@@ -34,7 +34,7 @@ class FileSelectorGUI(QWidget):
         self.lineEdit_path = QLineEdit(self)
         self.button_browse = QPushButton("选择文件", self)
         self.button_browse.clicked.connect(self.browse_file)
-        self.button_confirm = QPushButton("确认", self)
+        self.button_confirm = QPushButton("生成", self)
         self.button_confirm.clicked.connect(self.show_result)
         self.result_msg = QLabel("", self)
 
